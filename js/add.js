@@ -1,4 +1,4 @@
-const API_URL = "https://songapp-backend-1.onrender.com/api/songs";
+const API_URL = 'https://songapp-backend-1.onrender.com/api/songs';
 
 const form = document.getElementById('addForm');
 form.addEventListener('submit', async (e) => {
