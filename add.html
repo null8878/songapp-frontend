@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Song - SongApp</title>
+</head>
+<body>
+  <h1>Add a Song</h1>
+  <form id="addForm">
+    <div>
+      <label>Title: <input type="text" name="title" required></label>
+    </div>
+    <div>
+      <label>Artist: <input type="text" name="artist"></label>
+    </div>
+    <div>
+      <label>Popularity (1-10): <input type="number" name="popularity" min="1" max="10"></label>
+    </div>
+    <div>
+      <label>Release Date: <input type="date" name="releaseDate"></label>
+    </div>
+    <div>
+      <label>Genres (comma separated): <input type="text" name="genre"></label>
+    </div>
+    <button type="submit">Save</button>
+  </form>
+  <p><a href="index.html">Back to list</a></p>
+
+  <script src="js/add.js"></script>
+</body>
+</html>
